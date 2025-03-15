@@ -1,1 +1,16 @@
-@import "tailwindcss"
+/* Styling setup ↓ */
+@import "tailwindcss";
+:root{
+    --dark-color: rgb(25, 25, 35);
+    --darker-color: rgb(40, 40, 55);
+    --lighter-color: rgb(150, 150, 180);
+    --light-color: rgb(215, 215, 250);
+    --light-glass: rgb(215, 215, 250, 0.25);
+    --accent-color: rgb(150, 0, 240);
+
+    --brand-font: "Audiowide";
+    --main-font: "Roboto";
+}
+body{
+    background-color: var(--dark-color);
+}
