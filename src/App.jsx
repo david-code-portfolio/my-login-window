@@ -1,4 +1,6 @@
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+
 function App() {
   return(
     <section className="flex h-dvh">
@@ -19,7 +21,7 @@ function App() {
       {/* Right part of the screen/formular ↓ */}
       <form action="" className="p-30 w-1/2">
         <h1 className="text-7xl text-(color:--light-color) font-(family-name:--main-font) font-medium">Create an account</h1>
-        <p className="text-(color:--lighter-color) mt-10">Already have an account? <a href="" className="underline text-(color:--accent-color)">Log in</a></p>
+        <p className="text-(color:--lighter-color) mt-10 font-(family-name:--main-font)">Already have an account? <a href="" className="underline text-(color:--accent-color)">Log in</a></p>
         {/* Inputs ↓ */}
         <div className="grid grid-cols-2 gap-7 mt-20">
           <input type="text" placeholder="First Name" className="bg-(color:--darker-color) px-6 py-4 rounded-[0.25rem] focus:outline-2 outline-(color:--lighter-color) text-(color:--light-color) placeholder:text-(color:--lighter-color) text-xl"/>
@@ -31,8 +33,14 @@ function App() {
             <hr className='bg-(--darker-color) h-0.5 border-none'/>
             <p className='bg-(--dark-color) text-(--lighter-color) absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 px-8'>Or register with</p>
           </span>
-          <button className='bg-transparent font-(family-name:--main-font) text-(--light-color) text-xl border-1 rounded-[0.25rem] border-(--light-color) cursor-pointer py-4 hover:bg-(--light-color) hover:text-(--dark-color) transition duration-300 relative'><img src="../src/images/google-icon.png" alt="" className='w-5 h-5 absolute top-5 left-25'/>Google</button>
-          <button className='bg-transparent font-(family-name:--main-font) text-(--light-color) text-xl border-1 rounded-[0.25rem] border-(--light-color) cursor-pointer py-4 hover:bg-(--light-color) hover:text-(--dark-color) transition duration-300'>Apple</button>
+          <button className='bg-transparent font-(family-name:--main-font) text-(--light-color) text-xl border-1 rounded-[0.25rem] border-(--light-color) cursor-pointer py-3 hover:bg-(--light-color) hover:text-(--dark-color) transition duration-300 flex justify-center gap-3 items-center h-[60px]'>
+            <img src="../src/images/google-icon.png" alt="" className='w-7 h-7'/>
+            Google
+          </button>
+          <button className='bg-transparent font-(family-name:--main-font) text-(--light-color) text-xl border-1 rounded-[0.25rem] border-(--light-color) cursor-pointer py-3 hover:bg-(--light-color) hover:text-(--dark-color) transition duration-300 flex justify-center gap-3 items-center h-[60px]'>
+            <img src="../src/images/apple-icon.png" alt="" className='w-7 h-8'/>
+            Apple
+          </button>
         </div>
       </form>
     </section>
