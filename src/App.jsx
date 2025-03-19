@@ -2,8 +2,8 @@ function App() {
   return(
     <section className="flex h-dvh m-auto w-full min-2xl:max-w-[2460px] max-lg:grid">
       {/* Left part of the screen ↓ */}
-      <div className="p-4 max-lg:w-full max-lg:hidden w-1/2">
-        <div className="bg-[url(images/login-image-2.jpg)] w-full h-full min-h-[720px] rounded-2xl bg-no-repeat bg-cover bg-center relative cursor-default">
+      <div className="p-4 max-lg:w-full max-lg:hidden w-1/2 h-1/1">
+        <div className="bg-[url(images/login-image-2.jpg)] w-full h-full rounded-2xl bg-no-repeat bg-cover bg-center relative cursor-default">
 
           <h1 className="font-(family-name:--brand-font) text-5xl text-(color:--light-color) absolute top-10 left-10 max-2xl:text-3xl">AUM</h1>
 
@@ -19,7 +19,7 @@ function App() {
       </div>
       
       {/* Right part of the screen/formular ↓ */}
-      <form action="" className="p-30 w-1/2 max-2xl:p-20 max-lg:w-4/5 max-lg:m-auto max-sm:w-full max-sm:p-10">
+      <form action="" className="px-30 w-1/2 max-2xl:px-20 max-lg:w-4/5 max-lg:m-auto max-sm:w-full max-sm:p-10 my-auto">
         <h1 className="text-7xl max-2xl:text-4xl text-(color:--light-color) font-(family-name:--main-font) font-medium">Create an account</h1>
         <p className="text-(color:--lighter-color) mt-10 max-2xl:mt-5 font-(family-name:--main-font)">Already have an account? <a href="" className="underline text-(color:--accent-color)">Log in</a></p>
         {/* Inputs ↓ */}
