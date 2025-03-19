@@ -18,3 +18,16 @@ body{
 .checkbox:checked ~ label{
     color: var(--light-color);
 }
+.hover{
+    @apply transition duration-300;
+}
+.input{
+    @apply bg-(color:--darker-color) px-6 py-4 rounded-[0.25rem] focus:outline-2 outline-(color:--lighter-color) text-(color:--light-color) placeholder:text-(color:--lighter-color) text-xl;
+    @apply max-2xl:py-3 max-2xl:px-4 max-2xl:text-lg max-2xl:h-[50px];
+    @apply max-sm:text-sm max-sm:py-2 max-sm:h-[45px];
+}
+.sign-btns{
+    @apply bg-transparent font-(family-name:--main-font) text-(--light-color) text-xl border-1 rounded-[0.25rem] border-(--light-color) cursor-pointer py-3 hover:bg-(--light-color) hover:text-(--dark-color) flex justify-center gap-3 items-center h-[60px] overflow-hidden;
+    @apply max-2xl:text-lg max-2xl:h-[50px];
+    @apply max-sm:text-sm max-sm:h-[45px];
+}
