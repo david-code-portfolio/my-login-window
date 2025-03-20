@@ -1,8 +1,8 @@
 function App() {
   return(
-    <section className="flex h-dvh m-auto w-full min-2xl:max-w-[2460px] max-lg:grid">
+    <section className="flex m-auto w-full min-2xl:max-w-[2460px] max-lg:grid h-dvh min-h-[720px]">
       {/* Left part of the screen ↓ */}
-      <div className="p-4 max-lg:w-full max-lg:hidden w-1/2 h-1/1">
+      <div className="p-4 max-lg:w-full max-lg:hidden w-1/2">
         <div className="bg-[url(images/login-image-2.jpg)] w-full h-full rounded-2xl bg-no-repeat bg-cover bg-center relative cursor-default">
 
           <h1 className="font-(family-name:--brand-font) text-5xl text-(color:--light-color) absolute top-10 left-10 max-2xl:text-3xl">AUM</h1>
